@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="fornstyle.css">
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <h1>Payment Form</h1>
+        <hr>
+        <p>Name: <input type="text" name="name" id="" required placeholder="name of candidate"></p>
+        <fieldset>
+            <legend>Gender</legend>
+        <p>
+             <input type="radio" name="gender" id=""> Male
+            <br>
+             <input type="radio" name="gender" id=""> Female
+        </p>
+        </fieldset> 
+        <p>
+            Address : <textarea name="address" id="" cols="103" rows="8" placeholder="Enter Your Address"></textarea>
+        </p>
+        <p>
+            Email <input type="email" name="email" id="" placeholder="example@gmail.com">
+        </p>
+        <p>
+            Pincode <input type="number" name="pincode" id="" placeholder="123456">
+        </p>
+        <hr>
+        <h2>Payment Info</h2>
+        <p>
+            Card Type: <select name="card_type" id="">
+                <option value="">--select a card_type---</option>
+                <option value="visa">visa</option>
+                <option value="rupay">rupay</option>
+            </select> 
+        </p>
+        <p>
+            Card Number <input type="number" name="card_number" id="" placeholder="1111-2222-3333-4444">
+        </p>
+        <p>
+            Expiration Date <input type="date" name="date" id="">
+        </p>
+        <p>
+            CVV <input type="password" name="CVV" id="" placeholder="123">
+        </p>
+        <input type="submit" value="Pay Now">
+        <input type="reset" value="Reset">
+
+
+    </form>
+</div>
+    
+</body>
+</html>
